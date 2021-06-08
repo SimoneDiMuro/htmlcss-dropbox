@@ -14,3 +14,24 @@
     max-width: 1200px;
     margin: 0 auto;
 }
+
+#logo{
+    margin: 15px;
+}
+
+.column{
+    float: left;
+}
+
+.w-3{
+    width: calc(100% / 3);
+}
+
+.menu{
+    display: inline-block;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
