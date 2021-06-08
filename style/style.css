@@ -28,10 +28,16 @@
 }
 
 .menu{
-    display: inline-block;
     list-style: none;
+    text-align: center;
+    display: inline-block;
+
+}
+.menu li{
+    display: inline-block;
 }
 
 a{
     text-decoration: none;
+    margin: 10px;
 }
