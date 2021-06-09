@@ -111,10 +111,41 @@ header{
     padding-top: 20px;
 }
 
+.pb{
+    padding-bottom: 30px;
+}
+
 main{
     width: 1200px;
+    margin: 0 auto;
 }
 
 .text-center{
     text-align: center;
+}
+
+main div h2{
+    font-size: xx-large;
+}
+
+.margin-right{
+    margin-right: 50px;
+}
+
+.circle{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 2px solid #d0d0d3;
+}
+
+.select{
+    border: 5px solid #0061FF;
+}
+
+.column2{
+    float: left;
+    width: calc(100% / 3);
 }
