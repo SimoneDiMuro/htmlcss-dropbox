@@ -69,6 +69,8 @@ a{
 
 .content h1{
     font-size: 80px;
+    margin-bottom: 30px;
+    font-weight: 900;
 }
 
 .text-right{
@@ -77,4 +79,22 @@ a{
 
 .px-20{
     padding: 0 20px;
+}
+
+.text-class1{
+    display: inline-block;
+    font-weight: 600;
+    margin-right: 100px;
+}
+
+.w-30{
+    width: 30%;
+}
+
+.w-70{
+    width: 70%;
+}
+
+#jumbo{
+    max-width: 800px;
 }
