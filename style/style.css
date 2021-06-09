@@ -144,8 +144,32 @@ main div h2{
 .select{
     border: 5px solid #0061FF;
 }
+.option{
+    margin-bottom: 20px;
+}
 
 .column2{
     float: left;
     width: calc(100% / 3);
+    border: 2px solid #d0d0d3;
+}
+
+.user1{
+    padding: 10px;
+}
+
+.section1{
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.block{
+    display: block;
+}
+
+.button2{
+    background-color: #0061FF;
+    color: white;
+    padding: 5px 40px;
+    text-decoration: none;
 }
