@@ -163,8 +163,20 @@ main div h2{
     padding-left: 20px;
 }
 
-.block{
-    display: block;
+.price{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.time{
+    margin-bottom: 40px;
+    font-weight: lighter;
+}
+
+.list{
+    list-style-type: none;
+    margin-bottom: 20px;
 }
 
 .button2{
@@ -172,4 +184,5 @@ main div h2{
     color: white;
     padding: 5px 40px;
     text-decoration: none;
+    text-align: center;
 }
