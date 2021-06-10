@@ -259,7 +259,7 @@ main div h2{
     background-image: url(../img/partner.png);
     background-repeat: no-repeat;
     background-size: contain;
-    height: 1200px;
+    height: 600px;
 }
 
 .partner{
@@ -282,4 +282,17 @@ main div h2{
 
 .mt-30{
     margin-top: 30px;
+}
+
+.fs-30{
+    font-size: 30px;
+}
+
+.column5{
+    float: left;
+    width: calc(100% / 3);
+    background-image: url(../img/business-feature-switching-tools.png) ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 200px;
 }
