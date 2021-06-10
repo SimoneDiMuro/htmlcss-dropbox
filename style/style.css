@@ -252,3 +252,34 @@ main div h2{
 .m-l{
     margin-left: 700px;
 }
+
+.column4{
+    float: left;
+    width: 50%;
+    background-image: url(../img/partner.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 1200px;
+}
+
+.partner{
+    padding: 50px;
+}
+
+.partner h3{
+    font-size: x-large;
+    padding-bottom: 20px;
+}
+
+.button3{
+    background-color: white;
+    color: gray;
+    padding: 5px 20px;
+    text-decoration: none;
+    border: 2px solid;
+    margin-top: 30px;
+}
+
+.mt-30{
+    margin-top: 30px;
+}
