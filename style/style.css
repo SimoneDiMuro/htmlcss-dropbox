@@ -150,7 +150,7 @@ main div h2{
 
 .column2{
     float: left;
-    width: calc(100% / 3);
+    width: calc((100% / 3) - 60px);
     height: 1500px;
     border: 2px solid #d0d0d3;
 }
@@ -183,7 +183,7 @@ main div h2{
 .button2{
     background-color: #0061FF;
     color: white;
-    padding: 10px 74px;
+    padding: 10px 30px;
     text-decoration: none;
 }
 
@@ -206,4 +206,8 @@ main div h2{
 .fa-check{
     color: #0061FF;
     margin-right: 10px;
+}
+
+.margin{
+    margin: 0 30px;
 }
