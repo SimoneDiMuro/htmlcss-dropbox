@@ -151,6 +151,7 @@ main div h2{
 .column2{
     float: left;
     width: calc(100% / 3);
+    height: 1500px;
     border: 2px solid #d0d0d3;
 }
 
@@ -160,7 +161,8 @@ main div h2{
 
 .section1{
     padding-top: 30px;
-    padding-left: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .price{
@@ -176,13 +178,32 @@ main div h2{
 
 .list{
     list-style-type: none;
-    margin-bottom: 20px;
 }
 
 .button2{
     background-color: #0061FF;
     color: white;
-    padding: 5px 40px;
+    padding: 10px 74px;
     text-decoration: none;
-    text-align: center;
+}
+
+.mb-30{
+    margin-bottom: 30px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+.mb-70{
+    margin-bottom: 70px;
+}
+
+.line{
+    width: 25%;
+}
+
+.fa-check{
+    color: #0061FF;
+    margin-right: 10px;
 }
