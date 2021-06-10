@@ -150,8 +150,8 @@ main div h2{
 
 .column2{
     float: left;
-    width: calc((100% / 3) - 60px);
-    height: 1500px;
+    width: calc(100% / 3 - 70px);
+    height: 1200px;
     border: 2px solid #d0d0d3;
 }
 
@@ -209,5 +209,46 @@ main div h2{
 }
 
 .margin{
-    margin: 0 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.column3{
+    width: 100%;
+    float: left;
+    border: 2px solid #d0d0d3;
+    margin-top: 60px;
+}
+
+.column3 h4{
+    text-align: center;
+    padding: 10px;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.inline{
+    display: inline-block;
+}
+
+.pd-30{
+    padding: 30px;
+}
+
+.position-right{
+    float: right;
+}
+
+.position-left{
+    float: left;
+}
+
+.m-l{
+    margin-left: 700px;
 }
