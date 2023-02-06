@@ -51,48 +51,60 @@ header {
 }
 
 .jumbotron {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   margin-top: 10px;
   width: 100%;
-  height: 600px;
+  height: 810px;
   background-color: #b4d0e7;
 }
 
 .container-jumbotron {
-  margin: 0px 400px;
-  text-align: left;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0px 350px;
 }
 
 .container-jumbotron h3 {
-  font-size: 60px;
+  font-size: 120px;
   padding: 60px 0px;
 }
 
 .container-text {
-  margin-right: 72%;
+  margin-right: 75%;
   text-align: start;
-  font-size: small;
+  font-size: 20px;
 }
 
-.margin-bt-10 {
+.button-jumbo {
+  background-color: #0061ff;
+  border: 12px;
+  color: white;
+  padding: 8px 18px;
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.margin-bt-20 {
   margin: 20px 0px;
 }
 
 .fa-arrow-down {
   font-size: 40px;
-  text-align: left;
-  position: absolute;
-  margin-top: 60px;
+  margin-top: 70px;
 }
 
 .img-jumbo {
   position: absolute;
-  top: 340px;
+  top: 500px;
   right: 500px;
-  width: 700px;
+  width: 1000px;
 }
 
 .content {
-  margin: 100px 450px;
+  margin: 200px 450px;
 }
 
 .plans {
@@ -106,11 +118,11 @@ header {
 }
 
 .section-1 h4 {
-  font-size: xx-large;
+  font-size: 50px;
   padding: 0 20px;
 }
 
-.mg-r-25 {
+.mg-l-25 {
   margin-left: 25px;
 }
 
@@ -124,6 +136,68 @@ header {
   margin: 0px 40px;
 }
 
-.m-r {
-  margin-right: 20px;
+.m-r-60 {
+  margin-right: 60px;
+}
+
+.fw-s {
+  font-weight: bold;
+}
+
+hr {
+  border: 1px solid #6d6d6d noshade;
+  margin-top: 10px;
+}
+
+.pdt-5 {
+  padding: 5px 0 0 0;
+}
+
+.tx-c {
+  text-align: center;
+}
+
+.ft-sz-xl {
+  font-size: x-large;
+}
+
+.pd-tp-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.ft-sz-m {
+  font-size: medium;
+}
+
+.grey {
+  color: #6d6d6d;
+}
+
+.mr-b-20 {
+  margin-bottom: 20px;
+}
+
+.mrg-r-10 {
+  margin-right: 10px;
+}
+
+.mrg-tb-40 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.center {
+  align-items: center;
+  text-align: center;
+}
+
+.blue {
+  color: #0061ff;
+}
+
+.hr-min {
+  border: 1px solid #6d6d6d noshade;
+  width: 50px;
+  margin-bottom: 40px;
 }
