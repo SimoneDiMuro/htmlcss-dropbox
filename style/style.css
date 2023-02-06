@@ -93,7 +93,7 @@ header {
 
 .fa-arrow-down {
   font-size: 40px;
-  margin-top: 70px;
+  margin-top: 50px;
 }
 
 .img-jumbo {
@@ -200,4 +200,9 @@ hr {
   border: 1px solid #6d6d6d noshade;
   width: 50px;
   margin-bottom: 40px;
+}
+
+.section-team {
+  border: 1px solid #6d6d6d;
+  display: flex;
 }
